@@ -6,7 +6,6 @@
 [![npm version](https://img.shields.io/npm/v/@seneca/entity-history.svg)](https://npmjs.com/package/@seneca/entity-history)
 [![build](https://github.com/senecajs/seneca-entity-history/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-entity-history/actions/workflows/build.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-entity-history/badge.svg)](https://snyk.io/test/github/senecajs/seneca-entity-history)
-[![npm version](https://badge.fury.io/js/%40seneca%2Fentity-history.svg)](https://badge.fury.io/js/%40seneca%2Fentity-history)
 [![Coverage Status](https://coveralls.io/repos/github/senecajs/seneca-entity-history/badge.svg?branch=main)](https://coveralls.io/github/senecajs/seneca-entity-history?branch=main)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0b1990c4264d66b01c50/maintainability)](https://codeclimate.com/github/senecajs/seneca-entity-history/maintainability)
 [![DeepScan grade](https://deepscan.io/api/teams/5016/projects/14231/branches/259194/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5016&pid=14231&bid=259194)
@@ -49,21 +48,15 @@ If you're using this module and need help, you can:
 
 * `` : object <i><small>"&nbsp;"</small></i>
 
-
 Set plugin options when loading with:
 ```js
 
-
 seneca.use('entity-history', { name: value, ... })
-
 
 ```
 
-
 <small>Note: <code>foo.bar</code> in the list above means 
 <code>{ foo: { bar: ... } }</code></small> 
-
-
 
 <!--END:options-->
 
@@ -75,7 +68,6 @@ seneca.use('entity-history', { name: value, ... })
 * [sys:enthist,enthist:list](#-sysenthistenthistlist-)
 * [sys:enthist,entity:restore](#-sysenthistentityrestore-)
 
-
 <!--END:action-list-->
 
 <!--START:action-desc-->
@@ -86,24 +78,17 @@ seneca.use('entity-history', { name: value, ... })
 
 No description provided.
 
-
-
 ----------
 ### &laquo; `sys:enthist,enthist:list` &raquo;
 
 No description provided.
-
-
 
 ----------
 ### &laquo; `sys:enthist,entity:restore` &raquo;
 
 No description provided.
 
-
-
 ----------
-
 
 <!--END:action-desc-->
 
