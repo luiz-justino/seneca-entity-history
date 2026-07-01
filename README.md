@@ -15,13 +15,13 @@
 
 ## Install
 
-```sh
+```
 npm install @seneca/entity-history
 ```
 
 ## Quick Example
 
-```js
+```
 require('seneca')()
   .use('@seneca/entity-history')
 ```
@@ -49,8 +49,7 @@ If you're using this module and need help, you can:
 * `` : object <i><small>"&nbsp;"</small></i>
 
 Set plugin options when loading with:
-```js
-
+```
 seneca.use('entity-history', { name: value, ... })
 
 ```
@@ -98,7 +97,7 @@ The [Senecajs org](https://github.com/senecajs/) encourages open participation. 
 
 ### Running tests
 
-```sh
+```
 npm run test
 ```
 
